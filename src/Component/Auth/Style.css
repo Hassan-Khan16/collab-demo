@@ -1,0 +1,11 @@
+.custom-button {
+    background-color: #404040; /* Dark grey */
+    border-color: #404040;
+    color: white; /* Ensure text is visible */
+  }
+  
+  .custom-button:hover {
+    background-color: #000000; /* Black */
+    border-color: #000000;
+  }
+  
