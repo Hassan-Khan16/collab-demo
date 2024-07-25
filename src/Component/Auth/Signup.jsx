@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 import { Container, Card, Button, Form } from 'react-bootstrap';
 import './Style.css' ;
 
@@ -27,6 +28,9 @@ function SignupForm() {
                         </Form.Group>
                         <Button className="w-100 custom-button" size="lg">Register</Button>
                     </Form>
+                    <div className="text-center mt-3">
+                        <p>Already have an account? <Link to="/login" className="text-decoration-none">Login</Link></p>
+                    </div>
                 </Card.Body>
             </Card>
         </Container>
