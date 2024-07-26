@@ -28,14 +28,11 @@ function Login() {
                             <Form.Control type="password" placeholder="Password" />
                         </Form.Group>
 
-                        {/* 
-                        <Button style={{ width: '23rem' }} className='custom-button' size='lg' variant="primary" type="submit">
-                            Submit
-                        </Button> */}
-
-                        <Button className=' w-100 custom-button' size='lg' variant="primary" type="submit">
-                            Submit
-                        </Button>
+                        <div className="d-grid">
+                            <Button className='custom-button ' size="lg">
+                                Login
+                            </Button>
+                        </div>
 
                     </Form>
                 </Card.Body>
