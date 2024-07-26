@@ -2,6 +2,7 @@
 
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 import { Container, Card, Button, Form } from 'react-bootstrap';
 import './Style.css';
 
@@ -33,7 +34,9 @@ function Login() {
                                 Login
                             </Button>
                         </div>
-
+                        <div className='text-center m-3'>
+                            <p>Don't have an account? <Link to="/" style={{textDecoration:"none"}}>Sign up</Link></p>
+                        </div>
                     </Form>
                 </Card.Body>
             </Card>
