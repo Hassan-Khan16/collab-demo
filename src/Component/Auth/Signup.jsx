@@ -1,4 +1,5 @@
 
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -27,6 +28,7 @@ function SignupForm() {
                             <Form.Label className="d-flex justify-content-start">Password</Form.Label>
                             <Form.Control type="password" />
                         </Form.Group>
+
                         <Button className="w-100 custom-button" size="lg">Register</Button>
                     </Form>
                     <div className="text-center mt-3">
