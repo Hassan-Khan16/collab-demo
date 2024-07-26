@@ -2,6 +2,7 @@
 
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 import { Container, Card, Button, Form } from 'react-bootstrap';
 import './Style.css';
 
@@ -28,14 +29,13 @@ function Login() {
                             <Form.Control type="password" placeholder="Password" />
                         </Form.Group>
 
-                        {/* 
-                        <Button style={{ width: '23rem' }} className='custom-button' size='lg' variant="primary" type="submit">
-                            Submit
-                        </Button> */}
-
                         <Button className=' w-100 custom-button' size='lg' variant="primary" type="submit">
                             Submit
                         </Button>
+
+                        <div className='text-center m-3'>
+                            Don't have an account? <Link className='text-decoration-none' to='/'>Sign up</Link>
+                        </div>
 
                     </Form>
                 </Card.Body>
