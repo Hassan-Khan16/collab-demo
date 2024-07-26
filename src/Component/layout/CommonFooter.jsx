@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Navbar, Container } from 'react-bootstrap';
-import './Style.css';
+import './Styles.css';
 
 const CommonFooter = () => {
     return (
