@@ -1,13 +1,11 @@
-
-
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import './Styles.css';
+import './Style.css';
 
 const CustomHeader = () => {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg" className="custom-navbar">
+        <Navbar expand="lg" className="custom-theme-color custom-navbar">
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggler" />
             <Navbar.Collapse id="basic-navbar-nav" className="custom-collapse">
                 <Nav className="mx-auto">
