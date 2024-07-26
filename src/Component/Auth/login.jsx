@@ -16,21 +16,21 @@ function Login() {
                     <Form>
                         <Form.Group className="mb-3" controlId="formBasicUsername">
                             <Form.Label>Username</Form.Label>
-                            <Form.Control type="text" placeholder="Enter username" />
+                            <Form.Control type="text" />
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Email address</Form.Label>
-                            <Form.Control type="email" placeholder="Enter email" />
+                            <Form.Control type="email"  />
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicPassword">
                             <Form.Label>Password</Form.Label>
-                            <Form.Control type="password" placeholder="Password" />
+                            <Form.Control type="password" />
                         </Form.Group>
 
                         <Button className=' w-100 custom-button' size='lg' variant="primary" type="submit">
-                            Submit
+                            Login
                         </Button>
 
                         <div className='text-center m-3'>
