@@ -7,7 +7,7 @@ import './Styles.css';
 
 const CustomHeader = () => {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg" className="custom-navbar">
+        <Navbar  expand="lg" className="custom-navbar">
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggler" />
             <Navbar.Collapse id="basic-navbar-nav" className="custom-collapse">
                 <Nav className="mx-auto">

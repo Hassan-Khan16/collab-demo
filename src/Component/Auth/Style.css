@@ -1,26 +1,20 @@
 .custom-button {
-    background-color: #404040;
-    /* Dark grey */
+    background-color: #15212d;
     border-color: #404040;
     color: white;
-    /* Ensure text is visible */
 }
 
 .custom-button:hover {
     background-color: #000000;
-    /* Black */
     border-color: #000000;
 }
 
-/* Optional: Style the link */
 .text-center a {
     color: #007bff;
-    /* Bootstrap primary color */
 }
 
 .text-center a:hover {
     color: #0056b3;
-    /* Darker shade of the primary color */
 }
 
 .card-max-width {
