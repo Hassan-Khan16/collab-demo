@@ -5,7 +5,7 @@ import './Style.css';
 
 const CustomHeader = () => {
     return (
-        <Navbar expand="lg" className="custom-theme-color custom-navbar">
+        <Navbar  expand="lg" className="custom-navbar">
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggler" />
             <Navbar.Collapse id="basic-navbar-nav" className="custom-collapse">
                 <Nav className="mx-auto">
