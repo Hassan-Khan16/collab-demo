@@ -1,18 +1,19 @@
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import { Container, Card, Button, Form } from 'react-bootstrap';
-import './Style.css' ;
+import './Style.css';
 
 function SignupForm() {
     return (
-        <Container className='d-flex align-items-center justify-content-center' style={{ minHeight: '100vh' }}>
-            <Card style={{ maxWidth: '400px', width: '100%' }}>
-                <Card.Body>
+        <Container className='d-flex align-items-center justify-content-center container-center' >
+            <Card className='card-max-width'>
+                <Card.Body >
                     <h2 className="text-center mb-5">Create an Account</h2>
-                    <Form>
-                        <Form.Group className="mb-4" controlId="formName">
+                    <Form  >
+                        <Form.Group className="mb-4 " controlId="formName">
                             <Form.Label className="d-flex justify-content-start">User Name</Form.Label>
                             <Form.Control type="text" />
                         </Form.Group>
