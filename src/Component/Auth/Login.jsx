@@ -1,13 +1,16 @@
+
+
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Card, Button, Form } from 'react-bootstrap';
-import './Style.css' ;
+import './Style.css';
 
 function Login() {
     return (
-        <Container className='d-flex align-items-center justify-content-center custom-container' >
-            <Card style={{ maxWidth: '400px', width: '100%' }}>
-            <Card.Body>
+
+        <Container className='d-flex align-items-center justify-content-center container-center' >
+            <Card className='card-max-width'>
+                <Card.Body>
                     <h2 className="text-center mb-5">Login to your Account</h2>
                     <Form>
                         <Form.Group className="mb-3" controlId="formBasicUsername">
@@ -24,13 +27,18 @@ function Login() {
                             <Form.Label>Password</Form.Label>
                             <Form.Control type="password" placeholder="Password" />
                         </Form.Group>
-                        <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                        </Form.Group>
-                        <Button className='custom-button' size='lg' variant="primary" type="submit">
+
+                        {/* 
+                        <Button style={{ width: '23rem' }} className='custom-button' size='lg' variant="primary" type="submit">
+                            Submit
+                        </Button> */}
+
+                        <Button className=' w-100 custom-button' size='lg' variant="primary" type="submit">
                             Submit
                         </Button>
+
                     </Form>
-            </Card.Body>
+                </Card.Body>
             </Card>
         </Container>
     );

@@ -5,21 +5,38 @@
 }
 
 .custom-button {
-    background-color: #404040; /* Dark grey */
+    background-color: #404040;
+    /* Dark grey */
     border-color: #404040;
-    color: white; /* Ensure text is visible */
+    color: white;
+    /* Ensure text is visible */
 }
 
 .custom-button:hover {
-    background-color: #000000; /* Black */
+    background-color: #000000;
+    /* Black */
     border-color: #000000;
 }
 
 /* Optional: Style the link */
 .text-center a {
-    color: #007bff; /* Bootstrap primary color */
+    color: #007bff;
+    /* Bootstrap primary color */
 }
 
 .text-center a:hover {
-    color: #0056b3; /* Darker shade of the primary color */
+    color: #0056b3;
+    /* Darker shade of the primary color */
+}
+
+.card-max-width {
+    max-width: 400px;
+    width: 100%;
+}
+
+.container-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
