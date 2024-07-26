@@ -5,7 +5,7 @@ import './Style.css' ;
 
 function Login() {
     return (
-        <Container className='d-flex align-items-center justify-content-center' >
+        <Container className='d-flex align-items-center justify-content-center custom-container' >
             <Card style={{ maxWidth: '400px', width: '100%' }}>
             <Card.Body>
                     <h2 className="text-center mb-5">Login to your Account</h2>
@@ -26,7 +26,7 @@ function Login() {
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formBasicCheckbox">
                         </Form.Group>
-                        <Button style={{width:'23rem'}} className='custom-button' size='lg' variant="primary" type="submit">
+                        <Button className='custom-button' size='lg' variant="primary" type="submit">
                             Submit
                         </Button>
                     </Form>

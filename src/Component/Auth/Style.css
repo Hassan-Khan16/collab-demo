@@ -1,3 +1,9 @@
+.custom-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .custom-button {
     background-color: #404040; /* Dark grey */
     border-color: #404040;
