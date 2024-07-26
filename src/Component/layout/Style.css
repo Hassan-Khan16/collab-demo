@@ -77,8 +77,9 @@ html, body {
     text-decoration: none;
 }
 
-.custom-footer > a:hover {
-    text-decoration: underline;
+.custom-footer a:hover {
+    text-decoration: none; 
+    color: lightgray;
 }
 
 @media (min-width: 992px) {
