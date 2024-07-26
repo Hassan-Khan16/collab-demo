@@ -1,7 +1,8 @@
+
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
-import { Nav, Navbar, NavDropdown ,Container, Card, Button, Form } from 'react-bootstrap';
+import { Nav, Navbar, NavDropdown, Container, Card, Button, Form } from 'react-bootstrap';
 import './Style.css';
 
 function Login() {
@@ -66,11 +67,14 @@ function Login() {
                                 <Form.Control type="password" placeholder="Password" />
                             </Form.Group>
 
-                            <div className="d-grid">
-                                <Button className='custom-button ' size="lg">
-                                    Login
-                                </Button>
-                            </div>
+                            {/* 
+                        <Button style={{ width: '23rem' }} className='custom-button' size='lg' variant="primary" type="submit">
+                            Submit
+                        </Button> */}
+
+                            <Button className=' w-100 custom-button' size='lg' variant="primary" type="submit">
+                                Submit
+                            </Button>
                             <div className='text-center m-3'>
                                 <p>Don't have an account? <Link to="/" style={{ textDecoration: "none" }}>Sign up</Link></p>
                             </div>
@@ -78,6 +82,14 @@ function Login() {
                     </Card.Body>
                 </Card>
             </Container>
+
+            <Navbar expand="lg" className="bg-body-tertiary">
+                <Container fluid className='custom-footer'>
+                    <div ><p>Terms & Conditions</p></div>
+                    <div><p>Copyright © 2024 Your College Concierge. All rights reserved.<br/>Website by Sky Systems, Inc.</p></div>
+                    <div>Privacy Policy</div>
+                </Container>
+            </Navbar>
         </>
     );
 }
